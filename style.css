@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: red;
+    color: black;
+}
+button{
+    color: black;
+    background-color: aliceblue;
+}
+button:hover{
+    color: aliceblue;
+    background-color: black;
+}
