@@ -1,7 +1,8 @@
-body{
+ody{
     text-align: center;
     background-color: red;
     color: black;
+    box-shadow: #ff0000;
 }
 button{
     color: black;
@@ -10,4 +11,24 @@ button{
 button:hover{
     color: aliceblue;
     background-color: black;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 10px inset #000000;
+    border-radius: 15px;
+    box-shadow: 0 0 20px red ;
+}
+button{
+width: 20%;
+height: 25px;
+background: #f4f4f4;
+color: #050202;
+border-radius: 10px;
+font-size: 15px;
+cursor: pointer;
+}
+button:hover{
+        background: #000000;
+        color: #fff4f4;
 }
