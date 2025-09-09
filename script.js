@@ -4,11 +4,23 @@ function imc(){
     const nome = document.getElementById('nome').value;
     const altura = document.getElementById('altura').value;
     const peso = document.getElementById('peso').value;
-    const resutado = document.getElementById('resutado');
+    const resultado = document.getElementById
+    ('resultado');
+
+    const valorIMC = (peso/(altura*altura)).toFixed(1);
+
     
-    const valorIMC = peso/(altura*altura).toFixed;
+    let classificacao = "";
 
-    resutado.textContent = `${nome} seu imc é ${valorIMC}`;
-
+    if (valorIMC < 18.5){
+        classificacao = "Abaixo do peso";
+    }else if (valorIMC < 25){
+        classificacao = "Peso ideal";
+    }else if (valorIMC > 30){
+        classificacao = "levimente acima do peso"
+    }else {
+        classificacao = "Obesidade"
+    }
+    resultado.textContent = `${nome} seu IMC é ${valorIMC} , sua classificacão é ${classificacao}`;
 }
 calcular.addEventListener('click',imc);
