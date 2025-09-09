@@ -1,6 +1,6 @@
-ody{
+body{
     text-align: center;
-    background-color: red;
+    background-color: rgb(231, 65, 65);
     color: black;
     box-shadow: #ff0000;
 }
@@ -19,16 +19,11 @@ input{
     border-radius: 15px;
     box-shadow: 0 0 20px red ;
 }
-button{
-width: 20%;
-height: 25px;
-background: #f4f4f4;
-color: #050202;
-border-radius: 10px;
-font-size: 15px;
-cursor: pointer;
+.container{
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 35px #930303;
+    text-align: center;
 }
-button:hover{
-        background: #000000;
-        color: #fff4f4;
-}
+
